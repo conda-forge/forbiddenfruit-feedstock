@@ -1,13 +1,13 @@
 {% set name = "forbiddenfruit" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/forbiddenfruit-{{ version }}.tar.gz
-  sha256: e3f7e66561a29ae129aac139a85d610dbf3dd896128187ed5454b6421f624253
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/forbiddenfruit-{{ version }}.tar.gz
+  sha256: 786de92f86b9bcb028286ac96911740f6bf2bbe8f4604c8a3ee1ad6b362d4df9
 
 build:
   noarch: python
